@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); </style>
+    <title>Cadastro de Alunos</title>
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <div id="inicio">
+                <a href="index.html">&nbsp; CONTROLE DE ALUNOS</a>
+            </div>
+            
+            <div id="boschLogo">
+                <img src="imagens/logobosch.png" style="width: 150px; margin-top: -10%;">
+            </div>
+
+            <div id="final">
+                <a><b>Cadastrar: &nbsp; &nbsp;</b></a>
+                <a href="alunos.html" id="teste">Alunos</a>
+                |
+                <a href="salas.html">Sala</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="cont">
+        <div class="formAlunos">
+            <h2>CADASTRO DE ALUNOS</h2>
+
+            <div><img src="imagens/usuario.png" id="imgFoto" style="border-radius: 100px; width: 150px; height: 150px;"></div>
+            <div><input type="file" id="flImage" name="foto" accept="image/*" style="display: none;"></div>
+            <div><input type="text" id="nomeAluno" placeholder=" Nome"></div>
+            <div><input type="text" id="idadeAluno" placeholder="Capacidade"></div>
+            <div><input type="text" id="sexoAluno" placeholder="Capacidade"></div>
+
+            <div><select id="salaAluno">
+                <option>Sala</option>
+                <option>...</option>
+              </select>
+            </div>
+
+            <div><button value="enviar" id="cadastrar">Cadastrar</button></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <img src="imagens/logobosch.png" style="width: 150px;"><br>
+        ETS  |  Engineering Technical School ™<br>
+        <br><br>
+    </div>
+
+
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
